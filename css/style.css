@@ -29,16 +29,20 @@ nav h3 {
   text-align: center;
 }
 
-.btnreiniciar {
+.btn-light {
   position: relative;
-  top: 47vh;
-  left: 0vw;
-  transform: rotate(90deg);
+  top: 28.5vh;
+  left: 35vw;
+  /*   transform: rotate(90deg); */
+  padding: 7px 18.5px;
+}
+.btn-light a {
+  font-size: 1.5em;
 }
 
 @media (max-width: 480px) {
   * {
-    font-size: 12px;
+    font-size: 15px;
   }
 }
 
