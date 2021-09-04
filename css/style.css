@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+}
+nav .container-fluid {
+  display: inline-block;
+  margin: 0;
+  height: 400px;
+}
+
+header nav {
+  height: 35px;
+  margin-top: 5px;
+  padding-top: 10px;
+}
+
+body {
+  background-image: url(/assets/image/taxi.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100vw;
+}
+
+nav h3 {
+  text-align: center;
+}
+
+.btnreiniciar {
+  position: relative;
+  top: 47vh;
+  left: 0vw;
+  transform: rotate(90deg);
+}
+
+@media (max-width: 480px) {
+  * {
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
