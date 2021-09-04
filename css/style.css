@@ -4,7 +4,6 @@
   font-style: oblique;
   font-size: 15px;
   font-weight: 600;
-  text-decoration: none;
 }
 nav .container-fluid {
   display: inline-block;
@@ -42,8 +41,26 @@ nav h3 {
 
 @media (max-width: 480px) {
   * {
-    font-size: 15px;
+    font-size: 14px;
   }
+}
+
+.footer {
+  display: inline-flex;
+  flex-direction: row;
+  padding: 0px;
+  margin: 50vh 45px 0 40px;
+  background-color: rgba(79, 80, 75, 0.8);
+  text-align: center;
+  border-top: 2px solid #111;
+}
+.footer h4 {
+  color: rgba(198, 200, 169);
+}
+
+.footer p {
+  color: rgba(240, 241, 231);
+  font-size: 11px;
 }
 
 /*# sourceMappingURL=style.css.map */
